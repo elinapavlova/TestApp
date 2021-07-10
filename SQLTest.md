@@ -11,7 +11,7 @@ SELECT DISTINCT s.Name
  /*2 запрос*/
 SELECT DISTINCT s.Name
   FROM Salesperson AS s
- EXCEPT 
+EXCEPT 
      (SELECT s.Name
         FROM Salesperson AS s 
           INNER JOIN Orders AS o
